@@ -4,6 +4,8 @@
 
 博主只做 4 件事：**确认稿子 → 录口播 → 看预览 → 定标题**。写稿、做图解、做网页演示、剪辑、加字幕、做封面，全部交给 agent。
 
+![skill 自动生成的素材示例](_images/examples.jpg)
+
 ---
 
 ## 一、怎么开始用（最常用的一句话）
@@ -35,6 +37,8 @@ agent 会按总流程 `koubo-yitiaolong` 一步步往下走，每到需要你做
 
 ## 二、一期口播的完整流程
 
+![一期口播的完整流程](_images/pipeline.jpg)
+
 ✋ = 停下来等博主
 
 | 步 | 做什么 | 用哪个 skill | 谁动手 |
@@ -58,6 +62,8 @@ agent 会按总流程 `koubo-yitiaolong` 一步步往下走，每到需要你做
 
 剪辑开始时 agent 会问你，每期选一次就行：
 
+![素材怎么呈现](_images/modes.jpg)
+
 **1. 画幅**
 - 竖屏（默认）：小红书 / 视频号 / 抖音
 - 横屏：B 站等
@@ -77,6 +83,12 @@ agent 会按总流程 `koubo-yitiaolong` 一步步往下走，每到需要你做
 - 标题：「白字灰影」或「红条」两种，加标题时 agent 会问你选哪种
 - 同一时刻只出一种字；片头片尾加人物介绍（左侧三行白字）
 - 所有剪辑动效都配音效；背景音乐固定一首轻音乐（没定之前不带 BGM）
+
+![字幕样式](_images/subtitles.jpg)
+
+**5. 进度条**：竖屏长版顶部加章节进度条（需要单独装 video-progress-studio）
+
+![进度条](_images/progress-bar.jpg)
 
 ---
 
@@ -102,6 +114,7 @@ agent 会按总流程 `koubo-yitiaolong` 一步步往下走，每到需要你做
 ```
 koubo-skills/
 ├── README.md              ← 就是这份
+├── _images/               ← README 里的示意图
 ├── koubo-yitiaolong/      ← 每个 skill 一个文件夹
 │   ├── SKILL.md           ← 主说明书，agent 每次调用都读
 │   ├── references/        ← 详细参数表，用到才读
