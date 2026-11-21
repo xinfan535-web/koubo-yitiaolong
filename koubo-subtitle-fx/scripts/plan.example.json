@@ -1,0 +1,12 @@
+{
+  "srt": "subs.srt",
+  "config": {"orient": "portrait", "shrink": 0.86},
+  "events": [
+    {"type": "gold", "big": true, "start": 0.5, "end": 2.5, "text": "用好好过日子的方式"},
+    {"type": "shrink", "start": 0.5, "end": 2.5},
+    {"type": "chapter", "num": "1", "title": "整理桌面", "start": 3.0, "end": 8.0, "hold": 1.6},
+    {"type": "checklist", "start": 4.0, "end": 8.0, "items": [["桌下放踏板", 4.0], ["桌上加支架", 5.0]]},
+    {"type": "keywords", "start": 6.0, "end": 8.0, "words": [["友情", 6.0], ["羁绊", 6.5]]},
+    {"type": "punch", "start": 8.5, "end": 9.8, "text": "保证现金流"}
+  ]
+}
